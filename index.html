@@ -12,8 +12,13 @@
 let col;
 let img;
 let btn_type1;
+let btn_type2;
+let btn_type3;
+
     
 let img_type1;
+let img_type2;
+let img_type3;
     
 
 
@@ -21,6 +26,8 @@ function setup(){
   createCanvas(1000,700);
   col = color(245,40,40);
   img_type1 = loadImage("images/1.jpg");
+  img_type2 = loadImage("images/2.jpg");
+  img_type3 = loadImage("images/3.jpg");
 
 }
 function draw(){
@@ -38,12 +45,22 @@ function draw(){
     text('Pick type', 10,80);
     fill(col);
     rect(100,60,40,30);
+    rect(150,60,40,30);
+    rect(200,60,40,30);
+    fill(255,255,255);
+    text('t1',115,80);
+    text('t2',165,80);
+    text('t3',215,80);
     
     if(btn_type1==true){
-        //rect(150,200,200,50);
         image(img_type1,300,0,700,700);
     }
-
+    if(btn_type2==true){
+        image(img_type2,300,0,700,700);
+    }
+    if(btn_type3==true){
+        image(img_type3,300,0,700,700);
+    }
 
 }
     
@@ -51,10 +68,11 @@ function mousePressed(){
   if( mouseX > 100 && mouseY > 60 && mouseX < 100 + 40 && mouseY < 60 + 30){
     btn_type1 = !btn_type1;
   }
-
-  if( mouseX > 710 && mouseY > 70 && mouseX < 710 + 70 && mouseY < 70 + 30){
-    btnFacade = !btnFacade;
+  if( mouseX > 150 && mouseY > 60 && mouseX < 15- + 40 && mouseY < 60 + 30){
+    btn_type2 = !btn_type2;
+    btn_type1 = !btn_type1;
   }
+
 
   // set the fill color
   if(btn_type1){
@@ -62,10 +80,12 @@ function mousePressed(){
   } else {
     col = color(245, 40, 40);
   }
- 
-    
-    
 
+  if(btn_type2){
+    col = color(10, 245, 90);
+  } else {
+    col = color(245, 40, 40);
+  }
     
 }
     
