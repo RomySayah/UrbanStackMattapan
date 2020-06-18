@@ -13,14 +13,14 @@ let col;
 let img;
 let btn_type1;
     
-var img_type1;
+let img_type1;
     
 
 
 function setup(){
   createCanvas(1000,700);
-    col = color(245,40,40);
-    img_type1 = loadImage("/img/1.jpg");
+  col = color(245,40,40);
+  img_type1 = loadImage("images/1.jpg");
 
 }
 function draw(){
@@ -43,6 +43,7 @@ function draw(){
         rect(150,200,200,50);
     }
 
+image(img_type1,20,30);
 }
     
 function mousePressed(){
@@ -63,7 +64,7 @@ function mousePressed(){
  
     
     
-image(img_type1,20,30);
+
     
 }
     
