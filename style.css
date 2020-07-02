@@ -105,9 +105,9 @@ canvas{
   color: rgb(170, 170, 170);
 }
 
-/* VOID */
-#color_void{
-  background: rgb(255, 255, 255);
+/* facade */
+#color_facade{
+  background: rgb(255, 126, 0);
   border-style: solid;
   border-color:rgb(170, 170, 170);
   border-width: 0.2px;
@@ -115,22 +115,39 @@ canvas{
   
 }
 
-/* FLOOR */
-#color_0{
-  background: rgb(0, 0, 0);
+/* window */
+#color_window{
+  background: rgb(185,255,0);
   border-style: --style-edge;
   border-color:--color-edge;
   border-width: --thick-edge;
   
 }
 
-/* CARPET */
-#color_1{
-  background: rgb(3, 253, 5);
+/* balcony */
+#color_balcony{
+  background: rgb(169,71,130);
   border-style: --style-edge;
   border-color:--color-edge;
   border-width: --thick-edge;
 }
+
+/* roof */
+#color_roof{
+  background: rgb(1,66,255);
+  border-style: --style-edge;
+  border-color:--color-edge;
+  border-width: --thick-edge;
+}
+
+/* columns */
+#color_columns{
+  background: rgb(153,179,254);
+  border-style: --style-edge;
+  border-color:--color-edge;
+  border-width: --thick-edge;
+}
+
 
 /* ARMCHAIR */
 #color_2{

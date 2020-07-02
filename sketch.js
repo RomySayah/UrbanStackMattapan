@@ -20,11 +20,11 @@ function setup() {
   // Get the buttons
   currentColor = color(0, 0, 0);
   currentStroke = 0;
-  select('#color_void').mousePressed(() => currentColor = color(255, 255, 255));
-  select('#color_0').mousePressed(() => currentColor = color(0, 0, 0));
-  select('#color_1').mousePressed(() => currentColor = color(3, 253, 5));
-  select('#color_2').mousePressed(() => currentColor = color(230, 0, 0));
-
+  select('#color_facade').mousePressed(() => currentColor = color(255, 126, 0));
+  select('#color_window').mousePressed(() => currentColor = color(185,255,0));
+  select('#color_balcony').mousePressed(() => currentColor = color(169,71,130));
+  select('#color_roof').mousePressed(() => currentColor = color(1,66,255));
+  select('#color_columns').mousePressed(() => currentColor = color(153,179,254));
 
   // Select 'transfer' button html element
   transferBtn = select('#transferBtn');
