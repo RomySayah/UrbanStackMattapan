@@ -50,14 +50,14 @@ function setup() {
 
   randomBtn.mousePressed(function() {
     var nb = Math.floor(Math.random() * 4) + 1  
-    randImg = loadImage('images/random/map_'+nb+'.png', drawImage);
+    randImg = loadImage('images/random/img_'+nb+'.png', drawImage);
     currentImg = randImg
     shapes_coord = []
     shapes_colors = []
   });
 
   startBtn.mousePressed(function() {
-    pix2pix = ml5.pix2pix('model/MY_MODELS_BtoA.pict', modelLoaded);
+    pix2pix = ml5.pix2pix('model/model.pict', modelLoaded);
     $("#screen").fadeOut( "slow", function() {
       // Animation complete.
     });
