@@ -18,7 +18,7 @@ function setup() {
   statusMsg = select('#status');
 
   // Get the buttons
-  currentColor = color(0, 0, 0);
+  currentColor = color(255, 126, 0);
   currentStroke = 0;
   select('#color_facade').mousePressed(() => currentColor = color(255, 126, 0));
   select('#color_window').mousePressed(() => currentColor = color(185,255,0));
