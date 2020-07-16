@@ -4,17 +4,7 @@ let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, clearBtn, tra
 var shapes_coord = []
 var shapes_colors = []
 
-var _container = document.getElementById('sdv-container');
 
-var _viewerSettings = {
-    
-    container: _container,
-    api: {version: 2},
-    loggingLevel: SDVApp.constants.loggingLevels.NONE,
-    showSceneMode: SDVApp.constants.showSceneModes.INSTANT,
-    ticket: 'c898039b3c677c6248f187ad97c74b5c021e996f56363ae9f8bcbb754dbba90def43b40c1e615cd02785be213921dd5d790b235c7138b3624c9f9c640adf0000516c5047227c2c849c5228edd05a9b87030ccba01b51de4ea728b2fb44dccfdfd7f16f345d42d5b88effa9794b9aef0618794fdfa08a-bda8946d7d725825eb71fcddf9738dd7'
-};
-var api= new SDVApp.ParametricViewer(_viewerSettings);
 
 
 function setup() {
