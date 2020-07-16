@@ -52,7 +52,7 @@ function setup() {
   });
 
   randomBtn.mousePressed(function() {
-    var nb = getRandomInt(24)+1
+    var nb = (int)(Math.random() * ((24) + 1))
     randImg = loadImage('images/random/img_'+nb+'.png', drawImage);
     currentImg = randImg
     shapes_coord = []
