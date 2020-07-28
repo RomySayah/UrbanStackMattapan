@@ -6,7 +6,6 @@ let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, 
         var context = canvas.getContext('2d');
         
         
-        
         function setup()
         {   
             output = select('#output');
