@@ -79,7 +79,7 @@ function setup() {
   });
 
   randomBtn.mousePressed(function() {
-    var nb = (int)(Math.random() * ((24) + 1))
+    var nb = (int)(Math.random() * Math.floor(2))
     randImg = loadImage('images/random/img_'+nb+'.png', drawImage);
     currentImg = randImg
     shapes_coord = []
