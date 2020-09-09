@@ -5,32 +5,6 @@ var shapes_coord = []
 var shapes_colors = []
 
 
-// ShapeDiver Viewer Initialisation
-var initSdvApp = function(/*event*/) {
-  // Settings can be defined here, or as attributes of the viewport container. Settings defined here take precedence.
-  let _container = document.getElementById('sdv-container'); 
-  let settings = {
-    container: _container,
-    ticket: "ecc4ce02008868b6bf5e44e1dc6238f9527738bd06eb7513be49c06c9bbe1d16eb7d11caa11f4008cb557f7b42eaba6016a06e1887caa63adabcb6d5fc88d5544f499bb3fd9e1c185cc6710ee8587647adeecf100b538666bb6d68e55e574c082caf265d278298134aa5214d7161cede9b01d097ef0e-ee7826b5e2ef57e47ff6a381cde160e2",
-    modelViewUrl: "eu-central-1",
-    showControlsInitial: true,
-    showSettingsInitial: false,
-  };
-    
-     window.api = new SDVApp.ParametricViewer(settings);
-     
-};
-
-
-
-
-// there is a slight chance that loading has been completed already
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", initSdvApp, false);
-} else {
-  initSdvApp();
-}
-
 
 
 function setup() {
@@ -55,6 +29,11 @@ function setup() {
   select('#color_balcony').mousePressed(() => currentColor = color(169,71,130));
   select('#color_roof').mousePressed(() => currentColor = color(1,66,255));
   select('#color_columns').mousePressed(() => currentColor = color(153,179,254));
+  select('#color_door').mousePressed(() => currentColor = color(235,61,244));
+  select('#color_garage').mousePressed(() => currentColor = color(228,132,180));
+  select('#color_GFmaterial').mousePressed(() => currentColor = color(123,123,123));
+  select('#color_signage').mousePressed(() => currentColor = color(253,247,1));
+  select('#color_awning').mousePressed(() => currentColor = color(135,244,75));
 
   // Select 'transfer' button html element
   transferBtn = select('#transferBtn');
@@ -87,7 +66,7 @@ function setup() {
   });
 
   startBtn.mousePressed(function() {
-    pix2pix = ml5.pix2pix('model/model.pict', modelLoaded);
+    pix2pix = ml5.pix2pix('model/model2.pict', modelLoaded);
     $("#screen").fadeOut( "slow", function() {
       // Animation complete.
     });
