@@ -72,7 +72,7 @@ function setup() {
 
   randomBtn.mousePressed(function() {
     var nb = (int)(Math.random() * Math.floor(59))
-    randImg = loadImage('images/random3/img_'+nb+'.png', drawImage);
+    randImg = loadImage('images/random3/'+nb+'.jpg', drawImage);
     currentImg = randImg
     shapes_coord = []
     shapes_colors = []
@@ -85,7 +85,7 @@ function setup() {
       if(index>58 -1){
           index  = 0;
       }
-    nextImg = loadImage('images/random3/img_'+index+'.png', drawImage);
+    nextImg = loadImage('images/random3/'+index+'.jpg', drawImage);
     currentImg = nextImg
     shapes_coord = []
     shapes_colors = [] 
@@ -95,7 +95,7 @@ function setup() {
       if(index>58 -1){
           index  = 0;
       }
-    prevImg = loadImage('images/random3/img_'+index+'.png', drawImage);
+    prevImg = loadImage('images/random3/'+index+'.jpg', drawImage);
     currentImg = prevImg
     shapes_coord = []
     shapes_colors = [] 
