@@ -105,89 +105,124 @@ canvas{
   color: rgb(170, 170, 170);
 }
 
-/* facade */
-#color_facade{
-  background: rgb(255, 126, 0);
+
+
+
+
+
+#color_brick{
+  background: rgb(175, 5, 5);
   border-style: solid;
-  border-color:rgb(170, 170, 170);
+  border-color:rgb(175, 5, 5);
   border-width: 0.2px;
   left:300px;
-  
+}
+#color_alucobond{
+  background: rgb(210,163,231);
+  border-style: solid;
+  border-color:rgb(210,163,231);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_panel{
+  background: rgb(216,14,87);
+  border-style: solid;
+  border-color:rgb(216,14,87);
+  border-width: 0.2px;
+  left:300px; 
+}
+#color_wood{
+  background: rgb(0,255,191);
+  border-style: solid;
+  border-color:rgb(0,255,191);
+  border-width: 0.2px;
+  left:300px; 
+}
+#color_windSky{
+  background: rgb(255,173,0);
+  border-style: solid;
+  border-color:rgb(255,173,0);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_windRefl{
+  background: rgb(120,255,0);
+  border-style: solid;
+  border-color:rgb(120,255,0);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_windCurt{
+  background: rgb(71,34,85);
+  border-style: solid;
+  border-color:rgb(71,34,85);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_windStru{
+  background: rgb(113,33,146);
+  border-style: solid;
+  border-color:rgb(113,33,146);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_windDeep{
+  background: rgb(122,146,148);
+  border-style: solid;
+  border-color:rgb(122,146,148);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_mullion1{
+  background: rgb(124,199,205);
+  border-style: solid;
+  border-color:rgb(124,199,205);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_mullion2{
+  background: rgb(0,0,0);
+  border-style: solid;
+  border-color:rgb(0,0,0);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_exhaust{
+  background: rgb(255,0,233);
+  border-style: solid;
+  border-color:rgb(255,0,233);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_sunshade{
+  background: rgb(48,79,81);
+  border-style: solid;
+  border-color:rgb(48,79,81);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_billboard{
+  background: rgb(145,163,4);
+  border-style: solid;
+  border-color:rgb(145,163,4);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_shadow{
+  background: rgb(33,154,0);
+  border-style: solid;
+  border-color:rgb(33,154,0);
+  border-width: 0.2px;
+  left:300px;
+}
+#color_foliage{
+  background: rgb(252,241,142);
+  border-style: solid;
+  border-color:rgb(252,241,142);
+  border-width: 0.2px;
+  left:300px;
 }
 
-/* window */
-#color_window{
-  background: rgb(185,255,0);
-  border-style: --style-edge;
-  border-color:--color-edge;
-  border-width: --thick-edge;
-  
-}
-
-/* balcony */
-#color_balcony{
-  background: rgb(169,71,130);
-  border-style: --style-edge;
-  border-color:--color-edge;
-  border-width: --thick-edge;
-}
-
-/* roof */
-#color_roof{
-  background: rgb(1,66,255);
-  border-style: --style-edge;
-  border-color:--color-edge;
-  border-width: --thick-edge;
-}
-
-/* columns */
-#color_columns{
-  background: rgb(153,179,254);
-  border-style: --style-edge;
-  border-color:--color-edge;
-  border-width: --thick-edge;
-}
-
-
-/* ARMCHAIR */
-#color_2{
-  background: rgb(230, 0, 0);
-  border-style: --style-edge;
-  border-color:--color-edge;
-  border-width: --thick-edge;
-}
-
-/* SMALL DESK */
-#color_3{
-  background: rgb(0, 255, 0);
-  border-style: --style-edge;
-  border-color:--color-edge;
-  border-width: --thick-edge;
-}
-
-/* CHAIR */
-#color_4{
-  background: rgb(255, 0, 191);
-  border-style: --style-edge;
-  border-color:--color-edge;
-  border-width: --thick-edge;
-}
-
-/* TVSET */
-#color_5{
-  background: rgb(255, 0, 0);
-  border-style: --style-edge;
-  border-color:--color-edge;
-  border-width: --thick-edge;
-}
-
-/* TABLE*/
-#color_6{
-  background: rgb(0, 0, 191);
-  border-style: --style-edge;
-  border-color:--color-edge;
-  border-width: --thick-edge;
-}
 
 #cancelBtn{
   border-color: white;
