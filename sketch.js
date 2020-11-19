@@ -72,7 +72,7 @@ function setup() {
 
   randomBtn.mousePressed(function() {
     var nb = (int)(Math.random() * Math.floor(59))
-    randImg = loadImage('images/random3/'+nb+'.jpg', drawImage);
+    randImg = loadImage('images/Hyunsuk_data/Seaport_'+nb+'.jpg', drawImage);
     currentImg = randImg
     shapes_coord = []
     shapes_colors = []
@@ -82,20 +82,20 @@ function setup() {
     
   nextBtn.mousePressed(function(){
       index+=1;
-      if(index>58 -1){
+      if(index>10 -1){
           index  = 0;
       }
-    nextImg = loadImage('images/random3/'+index+'.jpg', drawImage);
+    nextImg = loadImage('images/Hyunsuk_data/Seaport_'+index+'.jpg', drawImage);
     currentImg = nextImg
     shapes_coord = []
     shapes_colors = [] 
   });
   prevBtn.mousePressed(function(){
       index-=1;
-      if(index>58 -1){
+      if(index>10 -1){
           index  = 0;
       }
-    prevImg = loadImage('images/random3/'+index+'.jpg', drawImage);
+    prevImg = loadImage('images/Hyunsuk_data/Seaport_'+index+'.jpg', drawImage);
     currentImg = prevImg
     shapes_coord = []
     shapes_colors = [] 
