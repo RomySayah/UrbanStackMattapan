@@ -82,7 +82,7 @@ function setup() {
     
   nextBtn.mousePressed(function(){
       index+=1;
-      if(index>7 -1){
+      if(index>16 -1){
           index  = 0;
       }
     nextImg = loadImage('images/Romy_data/'+index+'.jpg', drawImage);
@@ -92,7 +92,7 @@ function setup() {
   });
   prevBtn.mousePressed(function(){
       index-=1;
-      if(index>7 -1){
+      if(index>16 -1){
           index  = 0;
       }
     prevImg = loadImage('images/Romy_data/'+index+'.jpg', drawImage);
