@@ -104,7 +104,7 @@ function setup() {
 
 
   startBtn.mousePressed(function() {
-    pix2pix = ml5.pix2pix('model/model3.pict', modelLoaded);
+    pix2pix = ml5.pix2pix('model/model1.pict', modelLoaded);
     $("#screen").fadeOut( "slow", function() {
       // Animation complete.
     });
